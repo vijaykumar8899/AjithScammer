@@ -1,0 +1,239 @@
+/* Reset default styling to ensure consistency across devices */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styling for the webpage */
+body,
+html {
+  background-color: #000000;
+  color: #e8e8e8;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.full-width-container {
+  width: 100%;
+  max-width: 100%;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.9);
+}
+
+/* Header styles with a dangerous vibe */
+.warning-header {
+  background: linear-gradient(90deg, #ff4c4c, #b30000);
+  padding: 1rem 0.5rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.alert-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 1), 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.danger-notice {
+  color: #ffcc00;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Section styling for content display */
+.details-section,
+.family-info-section,
+.criminal-profile-section,
+.police-contact-section {
+  background-color: #000000;
+  padding: 1.5rem;
+  margin: 1.2rem 0;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+}
+
+.section-heading1 {
+  font-size: 2rem;
+  color: #c3c3c3;
+  text-shadow: 0 0 2px rgba(255, 69, 0, 0.8);
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  color: #f31d1d;
+  text-shadow: 0 0 2px rgba(255, 69, 0, 0.8);
+  margin-bottom: 1rem;
+}
+
+.criminal-description,
+.highlight-danger,
+.criminal-story {
+  font-size: 1.2rem;
+  color: #ff6666;
+  margin: 0.5rem 0;
+}
+
+.highlight-danger {
+  background-color: #8b0000;
+  padding: 0.1rem;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+/* Family information styling */
+.family-info-container {
+  border: 2px dashed #ffcc00;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: #000000;
+}
+
+/* Ensure the family information list is displayed as a grid for alignment */
+.family-info-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start */
+  gap: 0.5rem; /* Add space between items */
+}
+
+.family-member {
+  font-size: 1.1rem;
+  color: #e8e8e8;
+}
+
+/* Styling for image sections */
+.images-container,
+.document-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.criminal-photo,
+.family-photo,
+.document-photo {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #ff1e1e;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.criminal-photo:hover,
+.family-photo:hover,
+.document-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.8);
+}
+
+/* Document section styling */
+.document {
+  width: 90%;
+  max-width: 350px;
+  background-color: #444;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.document h4 {
+  color: #ffcc00;
+  font-size: 1.2rem;
+}
+
+/* Police contact section styling */
+.police-contact-section {
+  background-color: #b71c1c;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.police-contact-info {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-details {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #ffcc00;
+}
+
+/* Footer section for additional warnings */
+.footer-warning {
+  background-color: #b71c1c;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.danger-message {
+  font-size: 2rem;
+  font-weight: 800;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.6);
+  margin: 0.5rem 0;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 768px) {
+  .alert-title {
+    font-size: 2.5rem;
+  }
+
+  .danger-notice {
+    font-size: 1.1rem;
+  }
+
+  .criminal-photo,
+  .family-photo,
+  .document-photo,
+  .document {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .details-section,
+  .family-info-section,
+  .criminal-profile-section,
+  .police-contact-section,
+  .footer-warning {
+    padding: 1rem;
+  }
+
+  .highlight-danger {
+    font-size: 1rem;
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 769px) {
+  .images-container,
+  .document-images {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
