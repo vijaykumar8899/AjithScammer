@@ -81,6 +81,7 @@ html {
   font-size: 1.2rem;
   color: #ff6666;
   margin: 0.5rem 0;
+  text-align: justify;
 }
 
 .highlight-danger {
