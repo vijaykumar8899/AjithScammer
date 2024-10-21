@@ -12,6 +12,7 @@ function App() {
 
       <div className="details-section">
         <h2 className="section-heading">Who is Ajith Reddy Vadde?</h2>
+        <img src="/Ajith1.jpeg" alt="Ajith Reddy Vadde" className="criminal-photo" />
         <p className="criminal-description">
           Ajith Reddy Vadde, son of Krishna Reddy Vadde, brother of Arun Reddy Vadde (BA 1st year, KLR College), is a known scammer involved in fraud. He uses his criminal mindset to deceive and steal from innocent victims.
         </p>
@@ -33,6 +34,7 @@ function App() {
         <div className="images-container">
           <img src="/Ajith1.jpeg" alt="Ajith Reddy Vadde" className="criminal-photo" />
           <img src="/Ajith2.jpeg" alt="Ajith Reddy Vadde" className="criminal-photo" />
+          <img src="/Ajith3.jpeg" alt="Ajith Reddy Vadde" className="criminal-photo" />
         </div>
       </div>
 
@@ -79,7 +81,7 @@ function App() {
         <p className="police-contact-info">
           If you have any information regarding Ajith Reddy Vadde or have fallen victim to his scams, please contact the police immediately:
         </p>
-        <p className="contact-details"><strong>Police Contact:</strong> 9150987651, 9347644178, 8106110637</p>
+        <p className="contact-details"><strong>Contact:</strong> 9150987651, 9347644178, 8106110637</p>
         <p className="contact-details"><strong>Local Police Station:</strong> Yanambailu Police Station, Khammam District</p>
         <p className="contact-details"><strong>Email:</strong> khammam@police.gov.in</p>
       </div>
