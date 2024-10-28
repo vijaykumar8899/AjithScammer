@@ -4,12 +4,13 @@ function App() {
   return (
     <div className="full-width-container">
       <header className="warning-header">
-        <h1 className="alert-title">⚠️ WANTED: Ajith Reddy Vadde ⚠️</h1>
-        <p className="danger-notice">
+      <h1 className="alert-title">Ajith Reddy Vadde</h1>
+        {/* <h1 className="alert-title">⚠️ WANTED: Ajith Reddy Vadde ⚠️</h1> */}
+        {/* <p className="danger-notice">
           Ajith Reddy Vadde, you are being tracked. The authorities are closing in on you.
-        </p>
+        </p> */}
       </header>
-
+{/* 
       <div className="details-section">
         <h2 className="section-heading">Who is Ajith Reddy Vadde?</h2>
         <img src="/Ajith1.jpeg" alt="Ajith Reddy Vadde" className="criminal-photo" />
@@ -21,7 +22,7 @@ function App() {
         </p>
       </div>
 
-      {/* New Criminal Profile Section */}
+     
       <div className="criminal-profile-section">
         <h2 className="section-heading">Criminal Profile</h2>
         <p className="criminal-story">
@@ -74,8 +75,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      {/* Police Contact Information Section */}
+      
       <div className="police-contact-section">
         <h2 className="section-heading1">Report Fraud or Sightings</h2>
         <p className="police-contact-info">
@@ -89,8 +89,8 @@ function App() {
       <div className="footer-warning">
         <h2 className="danger-message">Ajith, your lies are falling apart. You can't run forever.</h2>
         <p>If you have information on this criminal, contact the police immediately.</p>
-      </div>
-    </div>
+      </div>*/}
+    </div> 
   );
 }
 
