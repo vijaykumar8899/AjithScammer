@@ -2,14 +2,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="full-width-container">
-      <header className="warning-header">
-      <h1 className="alert-title">Ajith Reddy Vadde</h1>
-        {/* <h1 className="alert-title">⚠️ WANTED: Ajith Reddy Vadde ⚠️</h1> */}
-        {/* <p className="danger-notice">
-          Ajith Reddy Vadde, you are being tracked. The authorities are closing in on you.
-        </p> */}
-      </header>
+    // <div className="full-width-container">
+    //   <header className="warning-header">
+    //   {/* <h1 className="alert-title"></h1> */}
+        // {/* <h1 className="alert-title">⚠️ WANTED: Ajith Reddy Vadde ⚠️</h1> */}
+        // {/* <p className="danger-notice">
+        //   Ajith Reddy Vadde, you are being tracked. The authorities are closing in on you.
+        // </p> */}
+      // </header>
 {/* 
       <div className="details-section">
         <h2 className="section-heading">Who is Ajith Reddy Vadde?</h2>
@@ -90,8 +90,8 @@ function App() {
         <h2 className="danger-message">Ajith, your lies are falling apart. You can't run forever.</h2>
         <p>If you have information on this criminal, contact the police immediately.</p>
       </div>*/}
-    </div> 
-  );
+    // </div> 
+   );
 }
 
 export default App;
