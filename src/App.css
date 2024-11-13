@@ -243,7 +243,7 @@ html {
 @media (max-width: 768px) {
   
   .family-photo-image {
-    margin-top: 10px;
+    margin-top:0px;
     max-width: 100%;
   }
 
@@ -325,7 +325,7 @@ html {
   margin: 0; /* Remove or adjust margin as needed */
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top:20px;
 }
 
 .content-wrapper {
@@ -737,7 +737,7 @@ strong {
 
 /* Final Warning Container */
 .SixthContainer{
-  background-image: url('https://i.redd.it/132dvwqc5nw61.jpg'); /* Add your image URL here */
+  background-image: url('https://media.istockphoto.com/id/1348235065/video/red-lights-police-beacon-on-a-black-background-police-flashing-light-emergency-lights.jpg?s=640x640&k=20&c=Ux603Jgc1N2jz-Tl6q2sS6j0vFu0pi8UeOhnohKIe4w='); /* Add your image URL here */
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -817,7 +817,7 @@ strong {
   font-weight: 400;
   text-align: center;
   font-size: 2rem;
-  color: #e20000;
+  color: #e2cf00;
   margin-bottom: 1.5rem;
 }
 
@@ -861,7 +861,7 @@ strong {
   .danger-message {
     text-align: center;
     font-size: 1rem;
-    color: #e20000;
+    color: #e2c800;
     text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
     margin-bottom: 1.5rem;
   }
