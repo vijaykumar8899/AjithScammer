@@ -29,6 +29,15 @@ html {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.9); */
 }
+.view-count {
+  
+  font-family: "Luckiest Guy", cursive;
+  width: 800;
+  font-size: 1.2rem;
+  color: #ffcc00; /* Gold color for visibility */
+  text-align: center;
+  margin-top: 1rem;
+}
 
 /* Header styles with a dangerous vibe */
 
@@ -168,7 +177,7 @@ html {
 .family-photo-image {
   width: 70%; /* Occupy full width of the container */
   height: auto;
-  margin-top: -40px; /* Removes default margin */
+  margin-top: -50px; /* Removes default margin */
   padding: 0; /* Removes padding around the image */
   /* background-color: rgba(255, 255, 255, 0.05); */
   /* Enhanced shadow for depth */
@@ -243,7 +252,7 @@ html {
 @media (max-width: 768px) {
   
   .family-photo-image {
-    margin-top:0px;
+    margin-top:-10px;
     max-width: 100%;
   }
 

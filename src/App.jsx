@@ -1,6 +1,20 @@
 import './App.css';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  const [viewCount, setViewCount] = useState(() => {
+    // Initialize from localStorage or start at 500
+    const savedCount = localStorage.getItem('viewCount');
+    return savedCount ? parseInt(savedCount, 10) : 500;
+  });
+
+  useEffect(() => {
+    // Increment view count and save to localStorage
+    const newCount = viewCount + 1;
+    setViewCount(newCount);
+    localStorage.setItem('viewCount', newCount);
+  }, []); // Empty dependency array ensures this runs only on mount
+
   return (
     <div className="full-width-container">
       
@@ -12,6 +26,7 @@ function App() {
   <h2 className="sub-title">
     AJITH REDDY & FAMILY - DANGEROUS SCAM NETWORK
   </h2>
+  <p className="view-count">Website Views: {viewCount}</p>
 </header>
 
       <p className="scam-notice">
