@@ -243,6 +243,7 @@ html {
 @media (max-width: 768px) {
   
   .family-photo-image {
+    margin-top: 10px;
     max-width: 100%;
   }
 
@@ -436,16 +437,18 @@ html {
 .ThirdContainer {
   background-color: #111;
   padding: 2rem;
-  border-radius: 0px;
+  border-radius: 15px; /* Adjust the radius value as needed */
+  overflow: hidden; /* Ensures the background image respects the border radius */
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
   color: #e8e8e8;
   max-width: 100%;
-  margin: 0rem auto;
-  background-image: url('https://cdn.pixabay.com/photo/2017/09/02/19/54/red-2708362_960_720.jpg'); /* Add your image URL here */
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
+  margin: 0 auto;
+  background-image: url('https://cdn.pixabay.com/photo/2017/09/02/19/54/red-2708362_960_720.jpg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .wanted-section {
   text-align: center; /* Center-align text within the section */
   font-size: 1rem;
@@ -526,7 +529,7 @@ strong {
   }
 
   .danger-message {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .danger-notice {
@@ -554,6 +557,11 @@ strong {
    
      /* Limit the maximum width of the section */
   }
+  .criminal-story {
+    font-size: 1rem;
+    line-height: 1.6;
+   
+  }
 }
 
 
@@ -561,13 +569,16 @@ strong {
 
 /* Main Container */
 .FourthContainer {
-  background-color: #1c1c1c;
+  
+  background-image: url('https://media.istockphoto.com/id/1348235065/video/red-lights-police-beacon-on-a-black-background-police-flashing-light-emergency-lights.jpg?s=640x640&k=20&c=Ux603Jgc1N2jz-Tl6q2sS6j0vFu0pi8UeOhnohKIe4w='); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
-  color: #f2f2f2;
+
+  max-width: 100%;
+  margin: 0rem auto;
+ 
 }
 
 /* Family Information Section Styling */
@@ -588,6 +599,7 @@ strong {
   font-size: 1.2rem;
   list-style: none;
   padding-left: 0;
+  text-align: justify;
 }
 
 .family-member {
@@ -608,26 +620,33 @@ strong {
 
 /* Family Photo Section Styling */
 .family-photo-section {
-  text-align: center;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the photos horizontally */
+  gap: 1rem; /* Space between photos */
   margin-top: 1.5rem;
 }
 
 .family-photo {
-  max-width: 80%;
+  max-width: 30%; /* Each photo takes up about a third of the container */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
 }
 
+
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .FourthContainer {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .family-photo {
-    max-width: 90%;
+    max-width: 100%;
+    
+  }
+  .family-photo-section {
+    flex-direction: column; /* Stack photos vertically on small screens */
   }
 
   .family-info-list {
@@ -643,12 +662,16 @@ strong {
 
 /* Main Container for Evidence */
 .FifthContainer {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWV73RB-xSlKgB9EYcYZ0rkrbQ8f5KQ9e5MA&s'); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   background-color: #2e2e2e;
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
+  border-radius: 0px;
+ 
+  max-width: 100%;
+  margin: 0rem auto;
   color: #f2f2f2;
 }
 
@@ -693,7 +716,7 @@ strong {
 @media (max-width: 768px) {
   .FifthContainer {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .document h4, .evidence-images h4 {
@@ -714,26 +737,35 @@ strong {
 
 /* Final Warning Container */
 .SixthContainer{
+  background-image: url('https://i.redd.it/132dvwqc5nw61.jpg'); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   background-color: #2e2e2e;
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
+  border-radius: 0px;
+  
+  max-width: 100%;
+  margin: 0rem auto;
   color: #f2f2f2;
 }
 
 /* Final Warning Section */
 .final-warning-heading {
-  font-size: 2rem;
-  color: #e20000;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffc400; /* Slightly darker red for a more polished look */
   text-align: center;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
-  margin-bottom: 1.5rem;
+  text-shadow: 0 0 8px rgba(211, 47, 47, 0.4); /* Softer shadow */
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 
 .final-warning-text {
   font-size: 1.2rem;
+  text-align: justify;
   line-height: 1.5;
   color: #d4d4d4;
   margin-bottom: 1.5rem;
@@ -781,10 +813,11 @@ strong {
 }
 
 .danger-message {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
   text-align: center;
   font-size: 2rem;
   color: #e20000;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
   margin-bottom: 1.5rem;
 }
 
@@ -792,6 +825,69 @@ strong {
   font-size: 1.2rem;
   color: #f2f2f2;
 }
+@media (max-width: 768px) {
+  .section-heading1 {
+    font-size: 1rem;
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(255, 204, 0, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  
+  .police-contact-info {
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details {
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-details strong {
+    color: #e20000;
+  }
+  
+  /* Footer Warning Section */
+  .footer-warning {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .danger-message {
+    text-align: center;
+    font-size: 1rem;
+    color: #e20000;
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-warning p {
+    font-size: 1rem;
+    color: #f2f2f2;
+  }
+  .final-warning-text {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: #d4d4d4;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

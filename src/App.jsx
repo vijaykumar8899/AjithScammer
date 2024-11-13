@@ -94,7 +94,8 @@ function App() {
 
       <div className="ThirdContainer">
         <div className="wanted-section">
-          <h1 className="danger -message">⚠️ WANTED: Ajith Reddy Vadde ⚠️</h1>
+          <h1 className="danger -message">⚠️ WANTED ⚠️ </h1>
+          <h1 className="danger -message">Ajith Reddy Vadde </h1>
           <p className="danger-notice">
             Ajith Reddy Vadde, you are being tracked. The authorities are closing in on you.
           </p>
@@ -110,10 +111,13 @@ function App() {
         </div>
 
         <div className="criminal-profile-section">
-          <h2 className="section-heading">Criminal Profile</h2>
+          <h2 className="section-headingone">Criminal Profile</h2>
           <p className="criminal-story">
-            Ajith Reddy Vadde, residing at H-No/3-70B Kinnerasani Village, is a notorious fraudster.
-            He falsely established two companies: <strong>My Pranaya Cinematic World LLP</strong> and <strong>My Pranaya Farms and Greens India Pvt</strong>.
+          Ajith Reddy Vadde, S/O Krishna Reddy Vadde, residing at H-No/3-70B Kinnerasani Village, Palawancha Mandalam, 
+Badrari District, 507115, is a notorious fraudster. He falsely established two companies: My Pranaya Cinematic
+ World LLP and My Pranaya Farms and Greens India Pvt. Under the guise of legitimate business, he recruited more 
+ than ten people, showcasing a three-floor building as his office located in Madhapur near Ratnadeep. His schemes have 
+ caused significant financial harm to many unsuspecting victims, leading to urgent calls for his capture.
           </p>
         </div>
       </div>
@@ -134,6 +138,8 @@ function App() {
           </ul>
           <div className="family-photo-section">
             <img src="/Arun1.jpeg" alt="Arun Reddy Vadde" className="family-photo" />
+            <img src="/Ajith2.jpeg" alt="Arun Reddy Vadde" className="family-photo" />
+            <img src="/Ajith3.jpeg" alt="Arun Reddy Vadde" className="family-photo" />
           </div>
         </div>
       </div>
@@ -158,7 +164,7 @@ function App() {
         </div>
 
         <div className="other-evidence-section">
-          <h3 className="section-heading">Other Proofs of Fraud</h3>
+          <h3 className="section-headingone">Other Proofs of Fraud</h3>
           <div className="evidence-images">
             <h4>Screenshots and Audio Records</h4>
             <img src="/screenshot1.jpeg" alt="Screenshot Evidence" className="evidence-photo" />
@@ -170,7 +176,7 @@ function App() {
 
       <div className="SixthContainer">
         <div className="final-warning-section">
-          <h2 className="final-warning-heading">A Final Warning:</h2>
+          <h2 className="final-warning-heading">A Final Warning</h2>
           <p className="final-warning-text">
             If you ever come across <strong>Ajith Reddy Vadde</strong> or anyone associated with the <strong>"My Pranaya"</strong> brands, beware. 
             His charm is his deadliest weapon, and his family are the enablers. Protect yourself from these calculated predators.
