@@ -135,7 +135,7 @@ html {
   color: #ff0000;
   max-width: 100%;
   margin: 0rem auto;
-  background-image: url('https://img.freepik.com/premium-photo/scammers-often-use-laptops-conduct-their-illegal-activities-such-as-sending-phishing-emails-creating-fake-websites-stealing-personal-information_750630-5296.jpg'); /* Add your image URL here */
+  background-image: url('/background3.jpg'); /* Add your image URL here */
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -241,11 +241,7 @@ html {
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
-  .FirstContainer {
-    padding: 1.5rem;
-    margin: 1rem;
-  }
-
+  
   .family-photo-image {
     max-width: 100%;
   }
@@ -285,18 +281,21 @@ html {
     letter-spacing: 1px;
   }
   .FirstContainer {
-    padding:1rem;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin: 0rem;
   }
   .section-headingone {
-    font-size: 1rem; /* Decrease the font size here as needed */
+    font-size: 1.5rem; /* Decrease the font size here as needed */
     margin-bottom: 0.1rem;
     letter-spacing: 1px;
   }
   .scam-network-list li,
 .strategies-list li {
   padding: 0.3rem 0;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 100;
 }
 .content-wrapper {/* Default stacking for mobile */
@@ -323,8 +322,15 @@ html {
 .family-photo-image {
   width: 100%; /* Occupy full width of the container */
   height: auto;
+  padding-bottom: 0rem;
+  margin-bottom: -0.2rem;
  
 }
+.family-photo-section {
+  margin-bottom: 0rem;
+}
+
+
 
   
 }
@@ -342,8 +348,7 @@ html {
   background-color: #111;
   padding: 1rem;
   margin: 0rem ;
-  border-radius: 0px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+ 
   text-align: left;
   color: #e8e8e8;
 }
@@ -404,8 +409,10 @@ html {
 
 @media (max-width: 768px) {
   .SecondContainer {
-    padding: 1.5rem;
-    margin: 1rem 0;
+    padding-top: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0rem 0;
   }
 
   .section-heading {
@@ -530,6 +537,20 @@ strong {
 
   .criminal-photo {
     max-width: 200px;
+  }
+  .ThirdContainer {
+    
+    background-image: url('/background5.jpg'); /* Add your image URL here */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+  }
+  .wanted-section {
+    font-size: 0.9rem;
+  
+  
+   
+     /* Limit the maximum width of the section */
   }
 }
 
