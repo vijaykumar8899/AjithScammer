@@ -437,7 +437,7 @@ html {
 .ThirdContainer {
   background-color: #111;
   padding: 2rem;
-  border-radius: 15px; /* Adjust the radius value as needed */
+  border-radius: 0px; /* Adjust the radius value as needed */
   overflow: hidden; /* Ensures the background image respects the border radius */
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
   color: #e8e8e8;
@@ -525,7 +525,7 @@ strong {
 @media (max-width: 768px) {
   .ThirdContainer {
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .danger-message {
@@ -662,7 +662,7 @@ strong {
 
 /* Main Container for Evidence */
 .FifthContainer {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWV73RB-xSlKgB9EYcYZ0rkrbQ8f5KQ9e5MA&s'); /* Add your image URL here */
+  background-image: url('https://i.redd.it/132dvwqc5nw61.jpg'); /* Add your image URL here */
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -861,7 +861,7 @@ strong {
   .danger-message {
     text-align: center;
     font-size: 1rem;
-    color: #e2c800;
+    color: #e2c000;
     text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
     margin-bottom: 1.5rem;
   }
