@@ -29,6 +29,15 @@ html {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.9); */
 }
+.view-count {
+  
+  font-family: "Luckiest Guy", cursive;
+  width: 800;
+  font-size: 1.2rem;
+  color: #ffcc00; /* Gold color for visibility */
+  text-align: center;
+  margin-top: 1rem;
+}
 
 /* Header styles with a dangerous vibe */
 
@@ -135,7 +144,7 @@ html {
   color: #ff0000;
   max-width: 100%;
   margin: 0rem auto;
-  background-image: url('https://img.freepik.com/premium-photo/scammers-often-use-laptops-conduct-their-illegal-activities-such-as-sending-phishing-emails-creating-fake-websites-stealing-personal-information_750630-5296.jpg'); /* Add your image URL here */
+  background-image: url('/background3.jpg'); /* Add your image URL here */
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -168,7 +177,7 @@ html {
 .family-photo-image {
   width: 70%; /* Occupy full width of the container */
   height: auto;
-  margin-top: -40px; /* Removes default margin */
+  margin-top: -50px; /* Removes default margin */
   padding: 0; /* Removes padding around the image */
   /* background-color: rgba(255, 255, 255, 0.05); */
   /* Enhanced shadow for depth */
@@ -241,12 +250,9 @@ html {
 
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
-  .FirstContainer {
-    padding: 1.5rem;
-    margin: 1rem;
-  }
-
+  
   .family-photo-image {
+    margin-top:-10px;
     max-width: 100%;
   }
 
@@ -285,23 +291,22 @@ html {
     letter-spacing: 1px;
   }
   .FirstContainer {
-    padding:1rem;
+    padding-bottom: 0rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin: 0rem;
   }
   .section-headingone {
-    font-size: 1rem; /* Decrease the font size here as needed */
+    font-size: 1.5rem; /* Decrease the font size here as needed */
     margin-bottom: 0.1rem;
     letter-spacing: 1px;
   }
   .scam-network-list li,
 .strategies-list li {
   padding: 0.3rem 0;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 100;
-}
-.content-wrapper {/* Default stacking for mobile */
-  gap:0rem;
-  margin-bottom: 0rem;
 }
 .scam-notice{
   font-weight: 500;
@@ -312,19 +317,32 @@ html {
  
 
 }
-.scam-network-section,
-.strategies-section {
-  padding: 1rem;
-  margin-left: 20px;
-  margin-right: 20px;
 
- 
-}
 .family-photo-image {
   width: 100%; /* Occupy full width of the container */
   height: auto;
+  padding-bottom: 0rem;
+  margin-bottom: -0.2rem;
  
 }
+.family-photo-section {
+  margin-bottom: 0rem;
+}
+.scam-network-section,
+.strategies-section {
+  padding: 0.5rem; /* Reduced padding for mobile */
+  margin: 0; /* Remove or adjust margin as needed */
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top:20px;
+}
+
+.content-wrapper {
+  gap: 0; /* Remove gap between sections for mobile */
+  margin-bottom: 0; /* Adjust bottom margin for tighter layout */
+}
+
+
 
   
 }
@@ -342,8 +360,7 @@ html {
   background-color: #111;
   padding: 1rem;
   margin: 0rem ;
-  border-radius: 0px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+ 
   text-align: left;
   color: #e8e8e8;
 }
@@ -359,7 +376,7 @@ html {
   font-family: "Cinzel", serif;
   font-weight: 500;
 
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ddd;
   line-height: 1.8;
   margin-bottom: 1.5rem;
@@ -371,7 +388,7 @@ html {
   font-weight: 500;
 
   background-color: #222;
-  line-height: 1.3;
+  line-height: 1;
   padding: 1rem;
   margin: 1rem 0;
   border-left: 5px solid #ff1e1e;
@@ -404,8 +421,10 @@ html {
 
 @media (max-width: 768px) {
   .SecondContainer {
-    padding: 1.5rem;
-    margin: 1rem 0;
+    padding-top: 1.5rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin: 0rem 0;
   }
 
   .section-heading {
@@ -427,16 +446,18 @@ html {
 .ThirdContainer {
   background-color: #111;
   padding: 2rem;
-  border-radius: 0px;
+  border-radius: 0px; /* Adjust the radius value as needed */
+  overflow: hidden; /* Ensures the background image respects the border radius */
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
   color: #e8e8e8;
   max-width: 100%;
-  margin: 0rem auto;
-  background-image: url('https://cdn.pixabay.com/photo/2017/09/02/19/54/red-2708362_960_720.jpg'); /* Add your image URL here */
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
+  margin: 0 auto;
+  background-image: url('https://cdn.pixabay.com/photo/2017/09/02/19/54/red-2708362_960_720.jpg');
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 .wanted-section {
   text-align: center; /* Center-align text within the section */
   font-size: 1rem;
@@ -513,11 +534,11 @@ strong {
 @media (max-width: 768px) {
   .ThirdContainer {
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .danger-message {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .danger-notice {
@@ -531,6 +552,25 @@ strong {
   .criminal-photo {
     max-width: 200px;
   }
+  .ThirdContainer {
+    
+    background-image: url('/background5.jpg'); /* Add your image URL here */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+  }
+  .wanted-section {
+    font-size: 0.9rem;
+  
+  
+   
+     /* Limit the maximum width of the section */
+  }
+  .criminal-story {
+    font-size: 1rem;
+    line-height: 1.6;
+   
+  }
 }
 
 
@@ -538,13 +578,16 @@ strong {
 
 /* Main Container */
 .FourthContainer {
-  background-color: #1c1c1c;
+  
+  background-image: url('https://media.istockphoto.com/id/1348235065/video/red-lights-police-beacon-on-a-black-background-police-flashing-light-emergency-lights.jpg?s=640x640&k=20&c=Ux603Jgc1N2jz-Tl6q2sS6j0vFu0pi8UeOhnohKIe4w='); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
-  color: #f2f2f2;
+
+  max-width: 100%;
+  margin: 0rem auto;
+ 
 }
 
 /* Family Information Section Styling */
@@ -565,6 +608,7 @@ strong {
   font-size: 1.2rem;
   list-style: none;
   padding-left: 0;
+  text-align: justify;
 }
 
 .family-member {
@@ -585,26 +629,33 @@ strong {
 
 /* Family Photo Section Styling */
 .family-photo-section {
-  text-align: center;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers the photos horizontally */
+  gap: 1rem; /* Space between photos */
   margin-top: 1.5rem;
 }
 
 .family-photo {
-  max-width: 80%;
+  max-width: 30%; /* Each photo takes up about a third of the container */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
 }
 
+
 /* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .FourthContainer {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .family-photo {
-    max-width: 90%;
+    max-width: 100%;
+    
+  }
+  .family-photo-section {
+    flex-direction: column; /* Stack photos vertically on small screens */
   }
 
   .family-info-list {
@@ -620,12 +671,16 @@ strong {
 
 /* Main Container for Evidence */
 .FifthContainer {
+  background-image: url('https://i.redd.it/132dvwqc5nw61.jpg'); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   background-color: #2e2e2e;
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
+  border-radius: 0px;
+ 
+  max-width: 100%;
+  margin: 0rem auto;
   color: #f2f2f2;
 }
 
@@ -670,7 +725,7 @@ strong {
 @media (max-width: 768px) {
   .FifthContainer {
     padding: 1rem;
-    margin: 1rem;
+    margin: 0rem;
   }
 
   .document h4, .evidence-images h4 {
@@ -691,26 +746,35 @@ strong {
 
 /* Final Warning Container */
 .SixthContainer{
+  background-image: url('https://media.istockphoto.com/id/1348235065/video/red-lights-police-beacon-on-a-black-background-police-flashing-light-emergency-lights.jpg?s=640x640&k=20&c=Ux603Jgc1N2jz-Tl6q2sS6j0vFu0pi8UeOhnohKIe4w='); /* Add your image URL here */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   background-color: #2e2e2e;
   padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
-  max-width: 1200px;
-  margin: 2rem auto;
+  border-radius: 0px;
+  
+  max-width: 100%;
+  margin: 0rem auto;
   color: #f2f2f2;
 }
 
 /* Final Warning Section */
 .final-warning-heading {
-  font-size: 2rem;
-  color: #e20000;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #ffc400; /* Slightly darker red for a more polished look */
   text-align: center;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
-  margin-bottom: 1.5rem;
+  text-shadow: 0 0 8px rgba(211, 47, 47, 0.4); /* Softer shadow */
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
 }
 
 .final-warning-text {
   font-size: 1.2rem;
+  text-align: justify;
   line-height: 1.5;
   color: #d4d4d4;
   margin-bottom: 1.5rem;
@@ -758,10 +822,11 @@ strong {
 }
 
 .danger-message {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
   text-align: center;
   font-size: 2rem;
-  color: #e20000;
-  text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
+  color: #e2cf00;
   margin-bottom: 1.5rem;
 }
 
@@ -769,6 +834,69 @@ strong {
   font-size: 1.2rem;
   color: #f2f2f2;
 }
+@media (max-width: 768px) {
+  .section-heading1 {
+    font-size: 1rem;
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(255, 204, 0, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  
+  .police-contact-info {
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-details {
+    font-size: 1rem;
+    color: #f2f2f2;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-details strong {
+    color: #e20000;
+  }
+  
+  /* Footer Warning Section */
+  .footer-warning {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .danger-message {
+    text-align: center;
+    font-size: 1rem;
+    color: #e2c000;
+    text-shadow: 0 0 8px rgba(255, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-warning p {
+    font-size: 1rem;
+    color: #f2f2f2;
+  }
+  .final-warning-text {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+    color: #d4d4d4;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
